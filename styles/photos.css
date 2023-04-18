@@ -10,6 +10,7 @@
 .photo-card a {
     color: #E8EFF0;
 }
+
 .photo-card img {
     width: 100%;
 }
@@ -22,5 +23,6 @@
     display: block;
     text-align: center;
 }
+
 
 /* Your code here */

@@ -3,9 +3,11 @@ body {
     color: #E8EFF0;
     text-align: center;
 }
+
 img {
     width: 50%;
 }
+
 a {
     color: #E8EFF0;
 }
@@ -18,4 +20,17 @@ a.backButton {
     text-decoration: none;
 }
 
+
 /* Your code here */
+
+@media print {
+    a.backButton.notPrinted {
+        display: none;
+    }
+    img {
+        width: 50%;
+    }
+    p.notPrinted {
+        display: none;
+    }
+}
