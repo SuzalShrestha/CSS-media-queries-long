@@ -26,3 +26,20 @@
 
 
 /* Your code here */
+
+
+/*moderate screen*/
+
+@media screen and (min-width:600px) {
+    .photo-card div img {
+        padding: 15px;
+    }
+    .photo-card div.content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1200px) {}
